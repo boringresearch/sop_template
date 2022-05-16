@@ -1,8 +1,8 @@
-# Gaelic Algorithmic Research Group Standard Operating Procedures
+# Quick Setup rules
 
-Standard operating procedures for Gaelic Algorithmic Research Group projects:
+Template setup projects:
 
-<https://Gaelic Algorithmic Research Group-ucsb.github.io/SOP/>
+<https://tempalte.github.io/SOP/>
 
 
 ## Table of Contents
