@@ -1,8 +1,8 @@
 ---
-title: "Gaelic Algorithmic Research Group Standard Operating Procedures"
+title: "Gaelic Algorithmic Research Group (Quick Setup)"
 author: "Gaelic Algorithmic Research Group"
 date: "`r Sys.Date()`"
-description: "Standard operating procedures for Gaelic Algorithmic Research Group projects"
+description: "A Quick Setup Document for Gaelic Algorithmic Research Group projects"
 url: "https://Gaelic-Algorithmic-Research-Group.github.io/Quick-Setup/"
 github-repo: "Gaelic-Algorithmic-Research-Group/Quick-Setup"
 site: bookdown::bookdown_site
