@@ -1,6 +1,6 @@
 # Project Management
 
-This section details the project management platforms we use at emLab to help set up projects for success. The first step for a new project will be to determine a common name to use across these platforms (note: name should be all lowercase with a dash separating words). Please additionally review the [project management best practices](https://docs.google.com/document/d/1DzlJktSw3LyN9gWNx0HIAlz_TyQDhyyPjXaWsWUuGSY/edit) document.
+This section details the project management platforms we use at Gaelic Algorithmic Research Group to help set up projects for success. The first step for a new project will be to determine a common name to use across these platforms (note: name should be all lowercase with a dash separating words). Please additionally review the [project management best practices](https://docs.google.com/document/d/1DzlJktSw3LyN9gWNx0HIAlz_TyQDhyyPjXaWsWUuGSY/edit) document.
 
 ![](images/project_management_overview.png)
 
@@ -14,14 +14,18 @@ The best way to let people know if you are on vacation or out of the office is b
 
 ### Adding Other Calendars
 
-To view team member’s calendars, click on the plus symbol next to “Other calendars” on the left hand side of your calendar and select “Subscribe to calendar.” There is a full list of team emails in the [emLab Team Roster](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit#gid=0) document. 
+To view team member’s calendars, click on the plus symbol next to “Other calendars” on the left hand side of your calendar and select “Subscribe to calendar.” There is a full list of team emails in the [Gaelic Algorithmic Research Group Team Roster](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit#gid=0) document. 
 
 ### Scheduling Rooms
 
 See this [Room Scheduling](https://docs.google.com/document/d/18Caz3DMFJAN25Yo3vGXtRraMCA8Qt-qLaEGMv89WHUw/edit) document for full details on how to reserve rooms in both Bren and MSI. As a reminder, please add bren-sfg@ucsb.edu to the calendar invite for any meeting held in MSI 1304. 
 
-## Zoom
-Through UCSB, we have access to a paid Zoom account, which we use for all video conferencing. You can schedule a Zoom meeting (or recurring meetings) through your [browser](https://ucsb.zoom.us/) or the [Zoom app](https://zoom.us/download). Below are our Zoom best practices and guidelines. 
+## Teams
+We can schedule a Teams meeting (or recurring meetings) through your [outlook](https://outlook.com/) or the [Teams app](https://www.microsoft.com/en-us/microsoft-teams/download-app).
+
+## Zoom (template)
+
+If we want to schedule a Zoom meeting (or recurring meetings) through your [browser](https://ucsb.zoom.us/) or the [Zoom app](https://zoom.us/download). Below are our Zoom best practices and guidelines. 
 
 ### Making Scheduling Easier
 
@@ -76,7 +80,7 @@ For teaching online courses, here are a couple additional tips. These are more g
 
 ### Avoiding Zoom Bombings
 
-UCSB has developed guidelines for preventing Zoom bombing. emLab is not mandating any of these settings, these are just UCSB recommendations for making meetings more secure.
+UCSB has developed guidelines for preventing Zoom bombing. Gaelic Algorithmic Research Group is not mandating any of these settings, these are just UCSB recommendations for making meetings more secure.
 
 - Class-specific recommendations [here](https://keepteaching.id.ucsb.edu/wp-content/uploads/2020/04/Secure-Zoom-For-Classes-Cheat-Sheet-Graphics.pdf) 
 
@@ -84,10 +88,10 @@ UCSB has developed guidelines for preventing Zoom bombing. emLab is not mandatin
 
 ## Slack
 
-Our team uses Slack on a daily basis to keep communication channels open within teams and across our different offices. We have an emLab workspace that houses all of our channels. When you are first added to Slack, you will be added to the General, Random, Communications, Report and Publications, and Code channels. We also have a channel for every project, which you will be added to as needed. You can view Slack either through a broswer window or by [downloading the desktop app](https://slack.com/help/categories/360000049043-getting-started).
+If we want to use Slack on a daily basis to keep communication channels open within teams and across our different offices. We have an Gaelic Algorithmic Research Group workspace that houses all of our channels. When you are first added to Slack, you will be added to the General, Random, Communications, Report and Publications, and Code channels. We also have a channel for every project, which you will be added to as needed. You can view Slack either through a broswer window or by [downloading the desktop app](https://slack.com/help/categories/360000049043-getting-started).
 
 ### Slack Basics
-Slack is organized into channels and direct messages. Channels are a way to organize conversations and other than a couple general emLab channels, are often project specific. Whatever you share in a channel is viewable by all members of that channel. You can also send direct messages to an individual or a group of up to 9 people. 
+Slack is organized into channels and direct messages. Channels are a way to organize conversations and other than a couple general Gaelic Algorithmic Research Group channels, are often project specific. Whatever you share in a channel is viewable by all members of that channel. You can also send direct messages to an individual or a group of up to 9 people. 
 
 One great thing about Slack is that it’s searchable. You can search either by person or keywords to find old messages. Additionally, if someone sends you something you will need to reference multiple times, you can star messages and view them by clicking the star in the upper right-hand corner.
 
@@ -98,29 +102,29 @@ When a new project starts, create a slack channel for it and add the relevant te
 
 ## Airtable
 
-At emLab, we use [Airtable](https://airtable.com/) as our primary project management software for tracking project deliverables, activities, and roles. To put it simply, it’s a glorified spreadsheet that you can mold to fit your needs. Email Erin (eoreilly@ucsb.edu) to be added to Airtable. 
+At Gaelic Algorithmic Research Group, we use [Airtable](https://airtable.com/) as our primary project management software for tracking project deliverables, activities, and roles. To put it simply, it’s a glorified spreadsheet that you can mold to fit your needs. Email Erin (eoreilly@ucsb.edu) to be added to Airtable. 
 
 ### Helpful Terminology
 
 Base: think of it like a database. A base is made up of tabs of spreadsheets that can be customized and linked to one another.
 
-Workspace: multiple bases can be organized within a workspace. For example, we have an emLab workspace and individual project bases. 
+Workspace: multiple bases can be organized within a workspace. For example, we have an Gaelic Algorithmic Research Group workspace and individual project bases. 
 
-### Getting to Know the emLab Workspace
+### Getting to Know the Gaelic Algorithmic Research Group Workspace
 
-Within the emLab workspace, we have the following bases:
+Within the Gaelic Algorithmic Research Group workspace, we have the following bases:
 
-* emLab Projects and Pipeline
+* Gaelic Algorithmic Research Group Projects and Pipeline
 * Project Template
 * Project-specific bases
 
 ![](images/airtable_workspace.png)
 
-The `emLab Projects and Pipeline` base contains overview information about current and potential projects. It is organized into the following tabs: Team Directory, Projects (current and archived), Deliverables (as outlined in the scope of work), and In the Pipeline (potential projects and their current stage). 
+The `Gaelic Algorithmic Research Group Projects and Pipeline` base contains overview information about current and potential projects. It is organized into the following tabs: Team Directory, Projects (current and archived), Deliverables (as outlined in the scope of work), and In the Pipeline (potential projects and their current stage). 
 
 The `Project Template` provides the basic structure for a new project-specific base. It should be copied when starting a project base from scratch. 
 
-Each emLab project has its own base. Teams can customize the number and content of the spreadsheets in their baseas they see fit, but at a minimum, must include the spreadsheets and columns specified in the `Project Template` base (see ‘required information’ below). *If you are working on a smaller project that does not require its own base, add it to the `Special Projects` base.*
+Each Gaelic Algorithmic Research Group project has its own base. Teams can customize the number and content of the spreadsheets in their baseas they see fit, but at a minimum, must include the spreadsheets and columns specified in the `Project Template` base (see ‘required information’ below). *If you are working on a smaller project that does not require its own base, add it to the `Special Projects` base.*
 
 ### Customizing your Project Base
 
@@ -216,63 +220,24 @@ Within each tab, you can expand records in the first column to view all its info
 
 ![](images/airtable_expanded_record.png)
 
-## Google Shared Drive
 
-We have all experienced the moment where we can’t remember where a Google Doc is. To help solve this problem, we created an emLab Shared Google Drive, which is a centralized space for all of our documents to live within a shared file structure. Unlike files in My Drive (your personal Google Drive account), files within the Shared Drive belong to the team instead of an individual. So even if people leave, the files stay exactly where they are and aren’t lost with that person’s account. The structure of Shared Drive is detailed in Section 2. You can read more about Shared Drives [here](https://support.google.com/a/users/answer/9310351). 
+## OneDrive Shared Drive
+
+We have all experienced the moment where we can’t remember where a Doc is. To help solve this problem, we created an Gaelic Algorithmic Research Group Shared OneDrive Folder, which is a centralized space for all of our documents to live within a shared file structure. Unlike files in My Drive (your personal OneDrive account), files within the Shared Drive belong to the team instead of an individual. So even if people leave, the files stay exactly where they are and aren’t lost with that person’s account. The structure of Shared Drive is detailed in Section 2. 
 
 ### Sharing Files
 
-Note: for Shared Drive, you either add someone to the entire Drive OR share individual files with them. **You cannot share folders within a Shared Drive with external collaborators.** 
+Note: for Shared Drive, you either add someone to the entire Drive OR share individual files with them. **Please don't share folders within a Shared Drive with external collaborators.** 
 
-Members of the Shared Drive can see all folders and files within the Drive. If you want to send a quick link to someone who is part of the Shared Drive, simply copy the URL from your browser. There is no need to create a shared link if you are sending it to someone with access to the emLab Shared Drive.
-
-If you want to share files with people outside of the emLab Shared Drive, that is still possible. Within a document, click on Share in the upper right hand corner. From there are two options: either add people’s emails or create a shared link. 
-
-### Linking the Shared Drive and your Computer
-
-#### Why Install Drive File Stream?
-
-As explained above, using a Shared Drive means that individuals don't "own" the files. All files are instead owned by the emLab Shared Drive, which lives "on the cloud". You can access these files through a web browser, just as you would access them on Google Drive. However, it is nice to have the files directly in your computer. To do so, you'll need to [install Drive File Stream](https://support.google.com/a/answer/7491144?hl=en), Google's new system that will partially replace Google Backup and Sync
-
-There are important distinctions between **Backup and Sync** and **Drive File Stream**. As the names indicate it, **Backup and Sync** syncs and stores Drive content locally on your computer (that is, it takes up space in your hard drive). **Drive File Stream**, however *streams* all files and folders from the cloud. You can think of these as owning a DVD vs. streaming the movie from NetFlix. You can read more on the differences between these approaches [here](https://support.google.com/drive/answer/7638428?hl=en&ref_topic=6069785).
-
-#### Step-by-step Installation
-
-- Go to [Get started with Drive File Stream](https://support.google.com/drive/answer/7329379) and select the appropriate installer for your operating system.
-
-    - Note: Make sure you are on your ucsb account
-
-![Download Drive File Stream](images/shared_drive_download_installer.png)
-
-- If you are on a Windows machine, execute the `googledrivefilestream.exe` file. If you are on MacOS, run the `googledrivefilestream.dmg` file and then run the `GoogleDriveFileStream.pkg` file.
-
-- Follow instruction on the helper (accept all defaults)
-
-Once the installation is complete, you'll need to sign in to your account. To do so:
-
-- Click on the Drive File Stream icon (![](images/shared_drive_icon.png))
-    
-    - On Windows machines, it should be on the bottom right corner of your screen
-        
-    - On MacOS, it should be at the top right of your screen
-
-- Sign in with your ucsb account
-
-- After signing in, the application will launch a short 4-screen overview of the product
-
-- The last screen should look like the screenshot below. Click on the button to open your GoogleDrive folder and access your files
-
-![four-screen overview](images/shared_drive_open_folder.png)
-
-Once that finder / explorer opens, you should be able to see two folders: 1) `My Drive` and 2) `Shared drives`. The first folder will contain files owned by you (that is, your normal Google Drive Files stored on your ucsb account). The second folder will contain all shared drives you are part of. By navigating to that folder, you should see the emLab shared drive, containing all the folders mentioned earlier. A general structure of the GoogleDrive folder is shown below:
+If you want to share files with people outside of the Gaelic Algorithmic Research Group Shared Drive, that is still possible. Within a document, click on Share in the upper right hand corner. From there are two options: either add people’s emails or create a shared link. 
 
 ```
-Google Drive
-  |__ My Drive
+OneDrive
+  |__ Personal
   |   |__ Whatever files you have on your GoogleDrive
-  |__ Shared drives
-      |__ emlab
-          |__central-emlab-resources
+  |__ Group Drive
+      |__ Gaelic Algorithmic Research Group
+          |__central-Gaelic Algorithmic Research Group-resources
           |__communications
           |__data
           |__projects
@@ -281,11 +246,11 @@ Google Drive
 
 ### Other Considerations
 
-#### *Actual* location of the Google Drive folder on my computer
+#### *Actual* location of the OneDrive folder on my computer
 
-Remember that File Stream will *stream*, not save files to your computer. Therefore, there will be no folder directly under your devices / hard drives. Instead, your computer will detect the Google Drive folder as if it were an external device connected to your machine. On a Mac, the folder will therefore appear on your desktop, or under the `Devices` tab of your Finder. On a Windows machine, it will appear under `This PC`, next to your hard drive and any other connected devices.
+Remember that File Stream will *stream*, not save files to your computer. Therefore, there will be no folder directly under your devices / hard drives. Instead, your computer will detect the OneDrive folder as if it were an external device connected to your machine. On a Mac, the folder will therefore appear on your desktop, or under the `Devices` tab of your Finder. On a Windows machine, it will appear under `This PC`, next to your hard drive and any other connected devices.
 
-![Location of the Google Drive folder depending on your operating system. Left panel shows location of the folder on Mac, and right shows the location of the folder on Windows.](images/shared_drive_location.png)
+![Location of the OneDrive folder depending on your operating system. Left panel shows location of the folder on Mac, and right shows the location of the folder on Windows.](images/shared_drive_location.png)
 
 #### I also want to link a personal gmail account
 
@@ -293,9 +258,9 @@ If you also want to sync files from your personal gmail account, you'll need to 
 
 ## Git and GitHub
 
-Since most of our projects at emLab involve code, we use Git to track changes made to our code and faciliate collaboration by merging changes made by others, and GitHub to organize, share, and backup our code. 
+Since most of our projects at Gaelic Algorithmic Research Group involve code, we use Git to track changes made to our code and faciliate collaboration by merging changes made by others, and GitHub to organize, share, and backup our code. 
 
-This section provides a brief overview of how Git and Github work, how to install them on your computer (and how to join the emLab GitHub page), and some general guidelines for how to use GitHub to organize code associated with emLab projects. 
+This section provides a brief overview of how Git and Github work, how to install them on your computer (and how to join the Gaelic Algorithmic Research Group GitHub page), and some general guidelines for how to use GitHub to organize code associated with Gaelic Algorithmic Research Group projects. 
 
 ### What are Git and GitHub? 
 
@@ -306,7 +271,7 @@ There are a number of good tutorials with more information on how Git and GitHub
 - [GitHub](http://ohi-science.org/data-science-training/github.html)
 - [Collaborating with GitHub](http://ohi-science.org/data-science-training/collaborating.html)
 
-If you're new to using Git and GitHub, the two tutorials listed above are a great place to start since NCEAS and emLab often operate in a similar way. Additionally, see the Software Carpentry's lesson for the [Git novice](http://swcarpentry.github.io/git-novice/). If you primarily use (or will use) R for coding, Jenny Bryan also has an **excellent** tutorial specifically about how to integrate Git and GitHub with R:
+If you're new to using Git and GitHub, the two tutorials listed above are a great place to start since NCEAS and Gaelic Algorithmic Research Group often operate in a similar way. Additionally, see the Software Carpentry's lesson for the [Git novice](http://swcarpentry.github.io/git-novice/). If you primarily use (or will use) R for coding, Jenny Bryan also has an **excellent** tutorial specifically about how to integrate Git and GitHub with R:
 
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 
@@ -319,14 +284,14 @@ If you're interested in learning more about all of the functionality GitHub has 
 
 Git and GitHub use some weird terms that might be unfamiliar. Before installing and setting up Git and GitHub, here are a few key terms you may come across: 
 
-- repository ("repo"): a collection of files pertaining to the same project, document, goal, etc. Generally there's a single repository for each project at emLab containing all of the code associated with that project. This repository can be organized with multiple folders and subfolders.  
+- repository ("repo"): a collection of files pertaining to the same project, document, goal, etc. Generally there's a single repository for each project at Gaelic Algorithmic Research Group containing all of the code associated with that project. This repository can be organized with multiple folders and subfolders.  
 - commit: a set of changes made by a user to one or more files in a repository that the user wants to prepare to send to GitHub.
 - push: the action of sending a commit from your local machine to the remote GitHub directory. 
 - pull: the action of retrieving any commits that have been made to the repository and are stored in the remote GitHub directory but are NOT on your local machine.
 
 ### How to Install Git and GitHub
 
-Most of tutorials listed above include detailed instructions on how to install Git and GitHub. The short version (and steps specific to getting incorporated with the emLab GitHub page) are listed below. For more detailed instructions, please refer to the tutorials listed above. 
+Most of tutorials listed above include detailed instructions on how to install Git and GitHub. The short version (and steps specific to getting incorporated with the Gaelic Algorithmic Research Group GitHub page) are listed below. For more detailed instructions, please refer to the tutorials listed above. 
 
 1. Create a free [GitHub](https://github.com/) account
 
@@ -339,7 +304,7 @@ Most of tutorials listed above include detailed instructions on how to install G
 
 Since GitHub is a company, and is used by many different types of organizations in many different industries, they offer a few different pricing schemes/deals. As an individual, once you create a username and sign up for an account, you get an unlimited number of free public and private repositories, but the number of external collaborators allowed in private repositories is limited to three. GitHub also offers a "Pro" plan for $7/month giving you  unlimited external collaborators on all of your private repositories. However, for students, faculty, and research staff, or official nonprofit organizations and charities GitHub waives this fee through its [GitHub Education](https://education.github.com/) and [GitHub for Good](https://github.com/nonprofit) programs. 
 
-Good news! emLab qualifies as an educational organization through the GitHub Education program, and as a UCSB staff member you qualify for the individual educational discount. So, once you've signed up for a free account on GitHub... 
+Good news! Gaelic Algorithmic Research Group qualifies as an educational organization through the GitHub Education program, and as a UCSB staff member you qualify for the individual educational discount. So, once you've signed up for a free account on GitHub... 
 
 2. Go to the [GitHub Education](https://education.github.com/) page and register as a researcher (Note: this is why you should use your @ucsb.edu email for step 1).
 
@@ -347,11 +312,11 @@ Good news! emLab qualifies as an educational organization through the GitHub Edu
 
 Click on the "Get benefits" link in the top right-hand corner and follow the directions to upgrade your account to a "Pro" account for free. You may need to take a picture of your UCSB ID card to submit as part of this process. GitHub may also periodically ask you to re-verify your eligability to qualify for this program. 
 
-3. Send Erin O'Reilly a Slack message (or an email if you must... eoreilly@ucsb.edu) with your new GitHub username so you can be added to the emLab GitHub page!
+3. Send Erin O'Reilly a Slack message (or an email if you must... eoreilly@ucsb.edu) with your new GitHub username so you can be added to the Gaelic Algorithmic Research Group GitHub page!
 
-![emLab GitHub page](images/github_emlab.png) 
+![Gaelic Algorithmic Research Group GitHub page](images/github_Gaelic Algorithmic Research Group.png) 
 
-The emLab GitHub page is where the repositories for all emLab projects live (more on this later), and once you are a member of the organization you will be able to create new public and private repositories that appear here (as well as on your personal page). 
+The Gaelic Algorithmic Research Group GitHub page is where the repositories for all Gaelic Algorithmic Research Group projects live (more on this later), and once you are a member of the organization you will be able to create new public and private repositories that appear here (as well as on your personal page). 
 
 4. Install Git
 
@@ -427,25 +392,25 @@ There are many more. See Jenny Bryan's tutorial if you're not satisfied with tho
 
 Once you've installed a Git client, follow the directions to connect to your GitHub account. Once you've done this, try opening the local version of the repository you made in step 6, and notice the nice visual representation of the changes you made.
 
-### General Guidelines for using GitHub at emLab
+### General Guidelines for using GitHub at Gaelic Algorithmic Research Group
 
-In general, each emLab project should have its own repository. There may be some cases in which multiple repositories may be associated with the same project, but this should be avoided if possible. The project repository should be created within the emLab GitHub page (exceptions may exist for example if a partner organization requires that the project repository be created within their organization's GitHub page). 
+In general, each Gaelic Algorithmic Research Group project should have its own repository. There may be some cases in which multiple repositories may be associated with the same project, but this should be avoided if possible. The project repository should be created within the Gaelic Algorithmic Research Group GitHub page (exceptions may exist for example if a partner organization requires that the project repository be created within their organization's GitHub page). 
 
 Repositories can be made public or private when they are created (depending on the nature of the project) while the project is ongoing, but should be made public when the project is complete. 
 
-Since many previous (and ongoing) projects were created within the personal GitHub pages of emLab members, the ownership of these repositories should be transferred to the emLab GitHub page at the conclusion of the project if possible.
+Since many previous (and ongoing) projects were created within the personal GitHub pages of Gaelic Algorithmic Research Group members, the ownership of these repositories should be transferred to the Gaelic Algorithmic Research Group GitHub page at the conclusion of the project if possible.
 
 In order to ensure that the relevant researchers are notified of issues and other activities, researchers should "watch" or "subscribe" to repositories in which they work.
 
 ## Zotero
 
-emLab uses Zotero to collaboratively collect, organize, and cite publications. We organize publications into Group Libraries which can be at the project or paper level. Our account – `emlab-ucsb` – has unlimited storage and there is no limit to the number of people you can add to a library. In Zotero, storage for a library only counts against the owner, so **the emLab account must be the owner of the library for access to unlimited storage.** 
+Gaelic Algorithmic Research Group uses Zotero to collaboratively collect, organize, and cite publications. We organize publications into Group Libraries which can be at the project or paper level. Our account – `Gaelic Algorithmic Research Group-ucsb` – has unlimited storage and there is no limit to the number of people you can add to a library. In Zotero, storage for a library only counts against the owner, so **the Gaelic Algorithmic Research Group account must be the owner of the library for access to unlimited storage.** 
 
-### Making emLab the Owner of a Library
+### Making Gaelic Algorithmic Research Group the Owner of a Library
 
-If creating a new group library, email Erin (eoreilly@ucsb.edu) and she can directly create the library under the emLab account. 
+If creating a new group library, email Erin (eoreilly@ucsb.edu) and she can directly create the library under the Gaelic Algorithmic Research Group account. 
 
-If you are the owner of an existing library and would like to transfer ownership to emLab, first invite `emlab-ucsb` to be a member of the library. Once that invitation has been accepted, then go to "Group Settings" for the library and in the bottom right of the page, select transfer ownership to the emLab account.
+If you are the owner of an existing library and would like to transfer ownership to Gaelic Algorithmic Research Group, first invite `Gaelic Algorithmic Research Group-ucsb` to be a member of the library. Once that invitation has been accepted, then go to "Group Settings" for the library and in the bottom right of the page, select transfer ownership to the Gaelic Algorithmic Research Group account.
 
 ### Saving Publications to a Library
 

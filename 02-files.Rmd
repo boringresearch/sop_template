@@ -1,12 +1,12 @@
 # File Structure
 
-This section details the emLab's organizational stucture for files and data stored on Google Drive and code stored on GitHub.
+This section details the Gaelic Algorithmic Research Group's organizational stucture for files and data stored on OneDrive and code stored on GitHub.
 
 ## Folder Naming 
 
 There are some general style conventions that should be used when naming folders. For any new folder, be desciptive but concise, avoid spaces, avoid uppercase (or camel-case), and avoid special characters other than `-`. Words should be separated with `-`, so an example folder name could be `blue-paradox-paper`. 
 
-This folder naming convention should be used for any folder added to the emLab Shared Drive or GitHub.
+This folder naming convention should be used for any folder added to the Gaelic Algorithmic Research Group Shared Drive or GitHub.
 
 ## Shared Drive Files
 
@@ -15,29 +15,29 @@ This folder naming convention should be used for any folder added to the emLab S
 ![](images/shared_drive_overview.png)
 
 <!-- ``` -->
-<!-- Google Drive -->
+<!-- OneDrive -->
 <!--   |__ My Drive -->
-<!--   |   |__ ... whatever files you have on your Google Drive ... -->
+<!--   |   |__ ... whatever files you have on your OneDrive ... -->
 <!--   |__ Shared drives -->
-<!--       |__ emLab -->
-<!--           |__ Central emLab Resources -->
+<!--       |__ Gaelic Algorithmic Research Group -->
+<!--           |__ Central Gaelic Algorithmic Research Group Resources -->
 <!--           |__ Communications -->
 <!--           |__ Data -->
 <!--           |__ Projects -->
 <!--           |__ Strategy -->
 <!-- ``` -->
 
-The emLab Shared Drive is organized into five main folders:
+The Gaelic Algorithmic Research Group Shared Drive is organized into five main folders:
 
-* `central-emlab-resources`: includes meeting and event information, onboarding materials, information about travel reimbursements, and the team roster
+* `central-Gaelic Algorithmic Research Group-resources`: includes meeting and event information, onboarding materials, information about travel reimbursements, and the team roster
 
-* `communications`: includes the blog schedule, Adobe design projects, PowerPoint templates, photo repository, emLab logos, and publication and media tracking
+* `communications`: includes the blog schedule, Adobe design projects, PowerPoint templates, photo repository, Gaelic Algorithmic Research Group logos, and publication and media tracking
 
-* `data`: includes the emLab data directory and all datasets we work with (see section 2.2.3 for more on this)
+* `data`: includes the Gaelic Algorithmic Research Group data directory and all datasets we work with (see section 2.2.3 for more on this)
 
 * `projects`: includes information on past and current projects, and project management guidelines
 
-* `strategy`: includes information about emLab's strategic plan
+* `strategy`: includes information about Gaelic Algorithmic Research Group's strategic plan
 
 A full table of contents can be seen [here](https://docs.google.com/document/d/1a26a6N4akF2dSXWfp0fWxGegd0wvrPVUeaA09en2EPE/edit). 
 
@@ -46,9 +46,9 @@ A full table of contents can be seen [here](https://docs.google.com/document/d/1
 ![](images/shared_drive_project.png)
 
 <!-- ``` -->
-<!-- Google Drive -->
+<!-- OneDrive -->
 <!--   |__ Shared drives -->
-<!--       |__ emLab -->
+<!--       |__ Gaelic Algorithmic Research Group -->
 <!--           |__ Projects -->
 <!--               |__ Archived Projects -->
 <!--               |__ Current Projects -->
@@ -66,7 +66,7 @@ A full table of contents can be seen [here](https://docs.google.com/document/d/1
 
 Each project folder must contain the following 6 folders:
 
-* `data`: This data folder will contain a `data_overview` spreadsheet and all of the intermediate datasets as well as output datasets associated with the project (see section 2.2.3 for more on this). Be sure to also add a copy of your final datasets to the `emlab/data` folder and data directory. 
+* `data`: This data folder will contain a `data_overview` spreadsheet and all of the intermediate datasets as well as output datasets associated with the project (see section 2.2.3 for more on this). Be sure to also add a copy of your final datasets to the `Gaelic Algorithmic Research Group/data` folder and data directory. 
 
 * `deliverables`: final reports, paper manuscripts, other final deliverables not related to data outputs
 
@@ -82,11 +82,11 @@ From here, each project can add sub-folders as they see fit within these 6 folde
 
 ### Data Storage
 
-As stated above, there are two locations in which data can be stored. The two locations are `Google Drive/Shared drives/emlab/projects/example-project/data` and `Google Drive/Shared drives/emlab/data`. This may seem confusing and redundant, but this section explains the differences between these two locations. As a short summary: `example-project/data` may contain raw, cleaned, intermediate, and output files for a given project, and will be used as the "workspace" while the project develops. On the other hand, `emlab/data` contains only (raw) input and output data from a finalized project. More detail is provided in the subsequent sections.
+As stated above, there are two locations in which data can be stored. The two locations are `OneDrive/Shared drives/Gaelic Algorithmic Research Group/projects/example-project/data` and `OneDrive/Shared drives/Gaelic Algorithmic Research Group/data`. This may seem confusing and redundant, but this section explains the differences between these two locations. As a short summary: `example-project/data` may contain raw, cleaned, intermediate, and output files for a given project, and will be used as the "workspace" while the project develops. On the other hand, `Gaelic Algorithmic Research Group/data` contains only (raw) input and output data from a finalized project. More detail is provided in the subsequent sections.
 
 #### `example-project/data`
 
-**All** data used in a project should live in this project-specific repository. To help keep track of project data, we highly recommend creating a `data_overview` spreadsheet (see section 3.3.2 for more information). This overview spreadsheet will provide a centralized summary of the data inputs and outputs for a project, and also allow teams to keep track of the status of adding the data to the `emlab/data` folder and creating the necessary metadata documentation. This repository will typically contain subfolders for `raw`, `processed` (or `clean`), and `output`, although each team might make slight modifications to this structure to suit their needs.
+**All** data used in a project should live in this project-specific repository. To help keep track of project data, we highly recommend creating a `data_overview` spreadsheet (see section 3.3.2 for more information). This overview spreadsheet will provide a centralized summary of the data inputs and outputs for a project, and also allow teams to keep track of the status of adding the data to the `Gaelic Algorithmic Research Group/data` folder and creating the necessary metadata documentation. This repository will typically contain subfolders for `raw`, `processed` (or `clean`), and `output`, although each team might make slight modifications to this structure to suit their needs.
 
 To illustrate how each of these subfolders might be used, consider the following. A team may receive data from partners, extract data from external sources, compile survey responses, create a new dataset from a literature review, or use results from previous projects as input. These data are termed “raw data” and should never be directly modified - **all of the errors, mistakes, and gremlins should be kept in the original versions**. Instead, they should be processed / cleaned, and then exported as “clean data” that is actually used in analyses. The script used to do the processing / cleaning then acts as a reproducable record of everything that was done to the raw data. 
 
@@ -109,20 +109,20 @@ Suppose that a team working in Montserrat is tasked to perform a stock assessmen
 
 <!-- ``` -->
 
-As stated above, since the `output` folder could contain information relevant to other projects, this data should be made available to other emLab projects once the project is complete. To do this, any `output` data (and `raw` data if it is not already there) should be moved to the `emlab/data` folder, as described below.
+As stated above, since the `output` folder could contain information relevant to other projects, this data should be made available to other Gaelic Algorithmic Research Group projects once the project is complete. To do this, any `output` data (and `raw` data if it is not already there) should be moved to the `Gaelic Algorithmic Research Group/data` folder, as described below.
 
-#### `emlab/data`
+#### `Gaelic Algorithmic Research Group/data`
 
-As a general rule, this folder contains all data *used* and *produced* by emLab projects. The idea is to make it easier for people to find data that has been used in previous projects, as well as to use previous results as inputs for new projects.
+As a general rule, this folder contains all data *used* and *produced* by Gaelic Algorithmic Research Group projects. The idea is to make it easier for people to find data that has been used in previous projects, as well as to use previous results as inputs for new projects.
 
-To illustrate types of data that should be in the `emlab/data` folder, consider the following. The [RAM Legacy stock assessment database](https://www.ramlegacy.org/) is key to many projects, and was used as input in the [Costello *et al.* 2016 "upsides" paper](https://www.pnas.org/content/113/18/5125). The "upsides database" is an output from the Costello paper, which has then been used as input for other projects. Therefore, the `emlab/data` folder contains separate folders for both the RAM and upsides datasets.
+To illustrate types of data that should be in the `Gaelic Algorithmic Research Group/data` folder, consider the following. The [RAM Legacy stock assessment database](https://www.ramlegacy.org/) is key to many projects, and was used as input in the [Costello *et al.* 2016 "upsides" paper](https://www.pnas.org/content/113/18/5125). The "upsides database" is an output from the Costello paper, which has then been used as input for other projects. Therefore, the `Gaelic Algorithmic Research Group/data` folder contains separate folders for both the RAM and upsides datasets.
 
 This large central data repository has the potential to become messy. Therefore, it is important to follow some key guidelines to store the data. **All datasets in this folder should be contained within their own folders that include at minimum the data and metadata files.** For example, a file structure for the two datasets mentioned above might be:
 
 ![](images/shared_drive_data.png)
 
 <!-- ``` -->
-<!-- emLab -->
+<!-- Gaelic Algorithmic Research Group -->
 <!--   |__ ...                            [other folders] -->
 <!--   |__ Data -->
 <!--        |__ upsides -->
@@ -137,18 +137,18 @@ This large central data repository has the potential to become messy. Therefore,
 <!--        |__ ... other data sets ...             -->
 <!-- ``` -->
 
-In the above example, the folder containing the upsides database is relatively straightforward with the metadata file and a single csv file. However, the folder containing the RAM database is more complicated as this is a dataset that is re-released every so often as a new version. Specific guidelines for organizing different types of data within the `emlab/data` folder are discussed in detail in section 3. 
+In the above example, the folder containing the upsides database is relatively straightforward with the metadata file and a single csv file. However, the folder containing the RAM database is more complicated as this is a dataset that is re-released every so often as a new version. Specific guidelines for organizing different types of data within the `Gaelic Algorithmic Research Group/data` folder are discussed in detail in section 3. 
 
 ## GitHub Structure
 
 ### Project Repository Structure
 
-The structure of each emlab repository on GitHub will likely vary depending on the needs of the project, but the following structure is suggested as a starting point. 
+The structure of each Gaelic Algorithmic Research Group repository on GitHub will likely vary depending on the needs of the project, but the following structure is suggested as a starting point. 
 
 ![](images/github_project.png)
 <!-- ``` -->
 <!-- Github -->
-<!--   |__ emlab-ucsb [organization] -->
+<!--   |__ Gaelic Algorithmic Research Group-ucsb [organization] -->
 <!--       |__ example-project [repository] -->
 <!--           |__ documents  -->
 <!--           |__ results -->
@@ -167,7 +167,7 @@ A `functions` folder may be useful for storing the code files in which functions
 
 Different types of projects may require more or fewer folders and these are only meant to act as suggestions. Regardless, the structure of the repository should be sufficiently organized such that it can be easily navigated and understood by others by the time the project is completed. 
 
-### A repo inside a repo
+### A repo inside a repo (a good thing to have)
 
 Sometimes, a project may have more than one paper or analysis sections. On some corner scenarios, we might want to have multiple "paper folders" within a "project folder". This would imply that we will have a repo inside a repo. If that is something that makes sense for you, your project, and your team, then `git submodules` are your solution. If you want to read more on when / how to use submodules, visit the [documentation page here](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
@@ -181,13 +181,13 @@ Including submodules in your workflow is simple. Here's an example. you are work
 You'll clone the Blue Future repo into your comuter, using the usual:
 
 ```
-git clone https://github.com/emlab-ucsb/BlueFuture.git
+git clone https://github.com/gaelic-algorithmic-research-group/BlueFuture.git
 ```
 
 Now, instead of cloning the repos for each paper and the app into their own folder, you'll navigate into your local BlueFuture folder. Then, instead of cloning them there, you can just do:
 
 ```
-git submodule add https://github.com/emlab-ucsb/Paper1.git
+git submodule add https://github.com/gaelic-algorithmic-research-group/Paper1.git
 ```
 
 This will clone the Paper 1 repo, but not without first telling the BlueFuture repo about it (just so that you don't end up tracking things twice). You can repeat the operation for `Paper2` and `ShinyApp`. That's it!

@@ -1,8 +1,8 @@
-# emLab Standard Operating Procedures
+# Gaelic Algorithmic Research Group Standard Operating Procedures
 
-Standard operating procedures for emLab projects:
+Standard operating procedures for Gaelic Algorithmic Research Group projects:
 
-<https://emlab-ucsb.github.io/SOP/>
+<https://Gaelic Algorithmic Research Group-ucsb.github.io/SOP/>
 
 
 ## Table of Contents
@@ -36,7 +36,7 @@ Standard operating procedures for emLab projects:
     - Google Cloud Platform
     - UCSB Server Clusters
 6. Reports and Publications
-    - emLab Affiliation
+    - Gaelic Algorithmic Research Group Affiliation
     - Reports
     - Author Contribution
     - Making Your Data Publicly Available
