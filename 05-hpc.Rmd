@@ -9,7 +9,7 @@ Certain analysis use cases require high performance computing resources:
 
 For analyses involving big data or models that take a long time to estimate, a single laptop or desktop computer is often not powerful enough or becomes inconvenient to use. Additionally, for analyses involving restricted-use data, such as datasets containing personally identifiable information, data use agreements typically stipulate that the data should be stored and analyzed in a secure manner.
 
-In these cases, you should use the high performance computing resources available to KRAI, including cloud computing through Google Cloud Platform and the UCSB server clusters. Cloud computing incurs costs but is flexible whereas the UCSB server clusters are free but have some limitations, such as job queues.
+In these cases, you should use the high performance computing resources available to <UNK>, including cloud computing through Google Cloud Platform and the UCSB server clusters. Cloud computing incurs costs but is flexible whereas the UCSB server clusters are free but have some limitations, such as job queues.
 
 When to use Google Cloud Platform:
 
@@ -23,11 +23,11 @@ When to use UCSB server clusters:
 
 ## Google Cloud Platform
 
-Google Cloud Platform (GCP) is a suite of cloud-based products that work together to provide robust and seamless solutions to high performance computing, big data storage, data analytics, machine learning and more. The platform is built on Google's internal infrastructure and it's known for it's reliability, flexibility, speed, and a relatively low cost "pay-as-you" model. At KRAI we mainly use three of GCP's products: [Cloud Storage](https://console.cloud.google.com/storage), [BigQuery](https://bigquery.cloud.google.com), and [Compute Engine](https://console.cloud.google.com/compute) and each year we have a limited amount of credits to cover the costs of using these tools for projects that require the storage and use of very large datasets, projects that require large computational power, or those that use Global Fishing Watch data. 
+Google Cloud Platform (GCP) is a suite of cloud-based products that work together to provide robust and seamless solutions to high performance computing, big data storage, data analytics, machine learning and more. The platform is built on Google's internal infrastructure and it's known for it's reliability, flexibility, speed, and a relatively low cost "pay-as-you" model. At <UNK> we mainly use three of GCP's products: [Cloud Storage](https://console.cloud.google.com/storage), [BigQuery](https://bigquery.cloud.google.com), and [Compute Engine](https://console.cloud.google.com/compute) and each year we have a limited amount of credits to cover the costs of using these tools for projects that require the storage and use of very large datasets, projects that require large computational power, or those that use Global Fishing Watch data. 
 
 When it comes to high performance computing, [Compute Engine](https://console.cloud.google.com/compute) is a very useful tool. It allows us to easily create custom-made virtual machines with the storage, memory, and number of cores needed for a given task. Virtual machines can run public images of Linux, Windows Server, and can also be used to deploy Docker containers. Starting, stopping, and deleting virtual machines is easy and fast which means we have full control on the amount of resources we use and get billed for. 
 
-To get up and running with a virtual machine, Grant McDermott (SFG alumn and fellow) wrote this really good step by step [tutorial](https://grantmcdermott.com/rstudio-server-compute-engine/). Here you will learn how to create, start, connect to, and stop a virtual machine in Compute Engine and how to install Rstudio server and Git. Importantly, you will also find a link that walks you through the installation of Google Cloud SDK command line utility (`gcloud`) which is a prerequisite to be able to speak to your virtual machine from your local terminal. When you install `gcloud` and autenthicate your credentials you will be able to set `KRAI-gcp` as your project which will link you to KRAI's billing account. If you have not joined `KRAI-gcp` please get in touch with and we will set you up! 
+To get up and running with a virtual machine, Grant McDermott (SFG alumn and fellow) wrote this really good step by step [tutorial](https://grantmcdermott.com/rstudio-server-compute-engine/). Here you will learn how to create, start, connect to, and stop a virtual machine in Compute Engine and how to install Rstudio server and Git. Importantly, you will also find a link that walks you through the installation of Google Cloud SDK command line utility (`gcloud`) which is a prerequisite to be able to speak to your virtual machine from your local terminal. When you install `gcloud` and autenthicate your credentials you will be able to set `<UNK>-gcp` as your project which will link you to <UNK>'s billing account. If you have not joined `<UNK>-gcp` please get in touch with and we will set you up! 
 
 General guidelines for creating and running virtual machines:
 
@@ -36,9 +36,9 @@ General guidelines for creating and running virtual machines:
   - Always turn off your VM when not it use. Remember we get charged for every minute it is on. 
   - Delete the VM once the project is finished. That way we keep things tidy. 
 
-### Connecting to KRAI's Shared Drive
+### Connecting to <UNK>'s Shared Drive
 
-A key consideration when using virtual machines is being able to access data stored elsewhere instead of having to copy data to the VMs hardrive. At KRAI we use OneDrive as the central repository for datasets and project files, and fortunately, there are tools to connect to it from VMs created in Compute Engine. For VMs using GUI interfaces (e.g., Windows or MacOS), one can simply use `filestream` as one would locally. However, for headless VMs such as those running Ubuntu which - we create often to run Rstudio server - we need to use a FUSE filesystem over OneDrive called [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse). At of November 2019, this workflow works for `zesty` and `xenial` distributions of Ubuntu. 
+A key consideration when using virtual machines is being able to access data stored elsewhere instead of having to copy data to the VMs hardrive. At <UNK> we use OneDrive as the central repository for datasets and project files, and fortunately, there are tools to connect to it from VMs created in Compute Engine. For VMs using GUI interfaces (e.g., Windows or MacOS), one can simply use `filestream` as one would locally. However, for headless VMs such as those running Ubuntu which - we create often to run Rstudio server - we need to use a FUSE filesystem over OneDrive called [google-drive-ocamlfuse](https://github.com/astrada/google-drive-ocamlfuse). At of November 2019, this workflow works for `zesty` and `xenial` distributions of Ubuntu. 
 
 In a VM running Ubuntu, follow the installation instructions via PPA repository found [here](https://github.com/astrada/google-drive-ocamlfuse/wiki/Installation). 
 
@@ -48,10 +48,10 @@ sudo apt-get update
 sudo apt-get install google-drive-ocamlfuse
 ```
 
-After installation you need to authorize `google-drive-ocamlfuse` and create a label for the connection. Labels are useful if you want to mount your personal drive as well as KRAI's Shared Drive. To authorize and create a label for our shared drive run: 
+After installation you need to authorize `google-drive-ocamlfuse` and create a label for the connection. Labels are useful if you want to mount your personal drive as well as <UNK>'s Shared Drive. To authorize and create a label for our shared drive run: 
 
 ```{bash, eval = F}
-google-drive-ocamlfuse -headless -label KRAI_drive -id ##yourClientID##.apps.googleusercontent.com -secret ###yoursecret#####
+google-drive-ocamlfuse -headless -label <UNK>_drive -id ##yourClientID##.apps.googleusercontent.com -secret ###yoursecret#####
 ```
 
 Copy and paste the clientID and secret which can be found [here](https://console.cloud.google.com/apis/credentials?project=ucsb-gfw&authuser=1&folder&organizationId) under the `file-stream` OAuth 2.0 client ID. 
@@ -64,19 +64,19 @@ Please, open the following URL in a web browser: https://accounts.google.com/o/o
 
 Follow the prompt, grant access, and copy and paste the verification code in the terminal prompt. You should see a message saying the token was succesfully authorized. 
 
-The last step to mount the team drive is to save the Shared Drive ID to the corresponding `config` file. This step is not necessary if you want to connect to your personal drive only. Open the config file in `~/.gdfuse/KRAI_drive/config` and look for the team_drive_id setting. Add our Team Drive ID (0AHyeeMXswgGLUk9PVA) and save the file. 
+The last step to mount the team drive is to save the Shared Drive ID to the corresponding `config` file. This step is not necessary if you want to connect to your personal drive only. Open the config file in `~/.gdfuse/<UNK>_drive/config` and look for the team_drive_id setting. Add our Team Drive ID (0AHyeeMXswgGLUk9PVA) and save the file. 
 
 Now you are ready to mount the drive to a local folder! 
 
 ```{bash, eval = F}
-google-drive-ocamlfuse -label KRAI_drive mountPoint
+google-drive-ocamlfuse -label <UNK>_drive mountPoint
 ```
 
 ## Eddie Server Clusters
 
 The University of Edinburgh provides resources and support for research involving high performance computing, including multiple server clusters for storing and analyzing data. Find out more information at <https://www.wiki.ed.ac.uk/display/ResearchServices/Eddie/>.
 
-The clusters should be used if cloud computing costs are a concern. The cluster computing resources are free to KRAI researchers, but they are a shared resource among Edinburgh researchers and involve job queues that can potentially delay analyses. Hopefully, most of the analyses typical of KRAI projects require a small amount of resources relative to other users of the clusters.
+The clusters should be used if cloud computing costs are a concern. The cluster computing resources are free to <UNK> researchers, but they are a shared resource among Edinburgh researchers and involve job queues that can potentially delay analyses. Hopefully, most of the analyses typical of <UNK> projects require a small amount of resources relative to other users of the clusters.
 
 Additionally, the clusters should typically be used if using restricted-use data in research, though this depends on the terms of the data use agreement. Be sure to restrict access to any sensitive data on the clusters by changing the folder and file permissions appropriately.
 

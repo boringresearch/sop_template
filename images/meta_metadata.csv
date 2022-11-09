@@ -15,9 +15,9 @@ Resolution,Resolution of spatial data (in degrees)
 Permissions,open = open source/open access; restricted = need author permission; secure = confidential data and likely involves a DUA or NDA [drop down menu]
 Start year,Data set start year; numeric
 End year,Data set end year; numeric
-Source,e.g. KRAI; FAO; Rare
-Contact,Name and email of contact person in KRAI who used/stored data
-KRAI reference,Hyperlinked reference to KRAI publication using data (can be NA)
+Source,e.g. <UNK>; FAO; Rare
+Contact,Name and email of contact person in <UNK> who used/stored data
+<UNK> reference,Hyperlinked reference to <UNK> publication using data (can be NA)
 Keywords,"e.g. fisheries; fire; utilities; property value; VDS; MPA; oceanography; temperature; habitat; biodiversity (up to 5 per entry, separated by semi-colons)"
 Summary,Brief description of the data (1-2 sentences). Include years for timeseries; location/spatial extent for spatial data; key variables; resolution; sampling frequency; species; etc.
 Notes,Other relevant information about data. Initial your entry (e.g. if it was processed (e.g. subset from a larger dataset); what specifically was done; are there suspicious data points?; note if there are issues; etc.)

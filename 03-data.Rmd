@@ -1,6 +1,6 @@
 # Data
 
-Data should be managed and shared properly to make it useful in research, to promote transparency and facilitate reproducibility, and to ensure the credibility of research. This includes such practices as transforming data into a tidy format, storing data in open file formats, and providing data documentation. **All KRAI data, unless restricted, should be stored in the KRAI Shared Drive (location dependent on type of data, see Section 2.2.3).**
+Data should be managed and shared properly to make it useful in research, to promote transparency and facilitate reproducibility, and to ensure the credibility of research. This includes such practices as transforming data into a tidy format, storing data in open file formats, and providing data documentation. **All <UNK> data, unless restricted, should be stored in the <UNK> Shared Drive (location dependent on type of data, see Section 2.2.3).**
 
 **Recommended readings:**
 
@@ -24,7 +24,7 @@ Data should be managed and shared properly to make it useful in research, to pro
 
 Coding styles guides provide teams with a shared language that promotes consistency, improves collaboration, and makes code easier to write as it simplifies the number of decisions we need to make on a daily basis (e.g., do I use - or _ to name this file? ). 
 
-All style guides are opinionated and while they all intend to make code easier to read and write, some decisions are arbitrary. Thus, instead of us at KRAI creating our own, we want to adopt the "proven and tested" [Tidyverse style guide](https://style.tidyverse.org/). This styles guide has good advice not only for naming files but also for naming functions, objects, and general best coding practices. We encourage all KRAI members to read the guide and work towards adopting it. 
+All style guides are opinionated and while they all intend to make code easier to read and write, some decisions are arbitrary. Thus, instead of us at <UNK> creating our own, we want to adopt the "proven and tested" [Tidyverse style guide](https://style.tidyverse.org/). This styles guide has good advice not only for naming files but also for naming functions, objects, and general best coding practices. We encourage all <UNK> members to read the guide and work towards adopting it. 
 
 When it comes to file naming, best practices include: 
 
@@ -54,19 +54,19 @@ We use "readme" style metadata, named `_readme_datafilename`, and stored in the 
 
 * Use a standardized date format (YYYY-MM-DD)
 
-We acknowledge that it may not always be feasible to draft robust metadata immediately when a dataset is first uploaded to the `KRAI/data` folder. In this case, a minimal readme file can be created as a temporary placeholder that contains the following information: your name, contact info, a very brief (1-2 lines) description of the data, and a note on how you obtained them. Please refer to the *Data Directory* subheading for further instruction on how to incorporate this form of temporary documentation into the KRAI Data Directory.
+We acknowledge that it may not always be feasible to draft robust metadata immediately when a dataset is first uploaded to the `<UNK>/data` folder. In this case, a minimal readme file can be created as a temporary placeholder that contains the following information: your name, contact info, a very brief (1-2 lines) description of the data, and a note on how you obtained them. Please refer to the *Data Directory* subheading for further instruction on how to incorporate this form of temporary documentation into the <UNK> Data Directory.
 
 For files that may be considered more "internal notes" than datasets (Google Sheets example mentioned above), please ensure that some sort of metadata is present. One alternative to a "readme" file is to create an extra tab on the Google Sheet labeled "metadata". Here, you can include information on the column names (column 1) and their definitions (column 2). This allows collaborators and team members to easily interpret the columns and use the dataset appropriately.
 
 ### Where to Store Metadata
 
-All readme metadata files are stored in the folder that contains the data file in the [KRAI Data Directory](https://docs.google.com/spreadsheets/d/1lCzpP1X0qPQrqDzVBi78XJQVUumbcQqRck60OkHtANk/edit#gid=0).
+All readme metadata files are stored in the folder that contains the data file in the [<UNK> Data Directory](https://docs.google.com/spreadsheets/d/1lCzpP1X0qPQrqDzVBi78XJQVUumbcQqRck60OkHtANk/edit#gid=0).
 
 ## Data Directory 
 
-### KRAI Data Directory
+### <UNK> Data Directory
 
-All KRAI data is stored in subfolders of the Data folder on the KRAI Team Drive (`KRAI/data`). To document these data, we use the [KRAI Data Directory](https://docs.google.com/spreadsheets/d/1lCzpP1X0qPQrqDzVBi78XJQVUumbcQqRck60OkHtANk/edit#gid=0) that includes key, standardized information from each readme metadata file. Every data file in the `KRAI/data` folder has a record (row) in the KRAI Data Directory. The KRAI Data Directory file contains two sheets: (1) Data directory (the record and standardized documentation for each data file); (2) Metadata (information needed to populate the Data Directory, i.e. the meta-metadata)
+All <UNK> data is stored in subfolders of the Data folder on the <UNK> Team Drive (`<UNK>/data`). To document these data, we use the [<UNK> Data Directory](https://docs.google.com/spreadsheets/d/1lCzpP1X0qPQrqDzVBi78XJQVUumbcQqRck60OkHtANk/edit#gid=0) that includes key, standardized information from each readme metadata file. Every data file in the `<UNK>/data` folder has a record (row) in the <UNK> Data Directory. The <UNK> Data Directory file contains two sheets: (1) Data directory (the record and standardized documentation for each data file); (2) Metadata (information needed to populate the Data Directory, i.e. the meta-metadata)
 
 In the case of placeholder metadata (as described in the *Metadata* section), only the following columns should be filled out: folder, filename, contact, and summary. This (mostly blank) row serves two purposes: 1) it retains some of the searchability function for that dataset and 2) it serves as a visual reminder that those datasets are in need of more robust metadata development.  
 
@@ -79,11 +79,11 @@ colnames(meta_metadatatable) <- c("Column","Description")
 kable(meta_metadatatable)
 ```
 
-Any time you add a new dataset to the shared KRAI data folder and directory, please message the `#data-streamlining` Slack channel so that others on the team know about the new dataset.
+Any time you add a new dataset to the shared <UNK> data folder and directory, please message the `#data-streamlining` Slack channel so that others on the team know about the new dataset.
 
 ### Project-level Data Directory
 
-We highly recommend that research teams create a `data_overview` spreadsheet for keeping track of project-related data (i.e. a separate spreadsheet stored in the project’s Google Shared Drive data folder). This centralized document can be used to document project-relevant information and communicate to team members datasets that have already been saved. This document can then be used to guide and simplify data migration to the [KRAI Data Directory](https://docs.google.com/spreadsheets/d/1lCzpP1X0qPQrqDzVBi78XJQVUumbcQqRck60OkHtANk/edit#gid=0) once the project is complete. Suggested attributes include:
+We highly recommend that research teams create a `data_overview` spreadsheet for keeping track of project-related data (i.e. a separate spreadsheet stored in the project’s Google Shared Drive data folder). This centralized document can be used to document project-relevant information and communicate to team members datasets that have already been saved. This document can then be used to guide and simplify data migration to the [<UNK> Data Directory](https://docs.google.com/spreadsheets/d/1lCzpP1X0qPQrqDzVBi78XJQVUumbcQqRck60OkHtANk/edit#gid=0) once the project is complete. Suggested attributes include:
 
   - File name
   - Folder name
@@ -144,14 +144,14 @@ Geopackage files can be written and read in R, QGIS, and ArcGIS.
 * These agreements should go through UCSB’s [Office of Technology & Industry Alliances (TIA)](https://tia.ucsb.edu).  
     + [This page](https://tia.ucsb.edu/industry-contracts/data-use-agreements/) provides guidelines for establishing a DUA. The first step in establishing a DUA is to fill out a [DUA Request Form](https://tia.ucsb.edu/wp-content/uploads/2021/09/DUA-Request-Form.pdf) and send it to Jenna Nakano (nakano@tia.ucsb.edu).
     + [This page](https://tia.ucsb.edu/industry-contracts/non-disclosure-agreements/) provides guidelines for establishing an NDA. The first step in establishing an NDA is to fill out a [NDA Request Form](https://tia.ucsb.edu/wp-content/uploads/2021/09/Request-for-Confidential-Disclosure-Agreement-Form-5.pdf) and send it to Jenna Nakano (nakano@tia.ucsb.edu).  
-    + CC KRAI's Amanda Kelley (aekelley@ucsb.edu) on all emails relating to the DUA or NDA.  
+    + CC <UNK>'s Amanda Kelley (aekelley@ucsb.edu) on all emails relating to the DUA or NDA.  
     + Once a request form has been sent, TIA will help produce standardized agreements that are based on answers to these forms. Alternatively, TIA can also review DUAs or NDAs that partners share.
 
 ### Data storage options  
 
-* KRAI is generally happy to work with partners to determine the most appropriate method for data storage. Some partners may have specific data storage requirements that will be laid out in the DUA or NDA.   
+* <UNK> is generally happy to work with partners to determine the most appropriate method for data storage. Some partners may have specific data storage requirements that will be laid out in the DUA or NDA.   
 * If the DUA or NDA does not have specific data storage requirements, we recommend one of the following three approaches depending on how sensitive the data are:  
-    + For data that are *not* confidential or sensitive, data should be stored in a project-specific directory on the KRAI Team Drive. Only KRAI PIs and full-time KRAI staff will have default access to this data directory. Any additional access for postdocs, students, or other external collaborators will only be granted on an as-needed basis and only after the collaborator has read the DUA or NDA. This option is used for the vast majority of KRAI projects.
+    + For data that are *not* confidential or sensitive, data should be stored in a project-specific directory on the <UNK> Team Drive. Only <UNK> PIs and full-time <UNK> staff will have default access to this data directory. Any additional access for postdocs, students, or other external collaborators will only be granted on an as-needed basis and only after the collaborator has read the DUA or NDA. This option is used for the vast majority of <UNK> projects.
     + For confidential or sensitive data, the primary recommended approach is the UCSB [Knot Cluster](http://csc.cnsi.ucsb.edu/clusters/knot) through the [Center for Scientific Computing](https://csc.cnsi.ucsb.edu/resources). 
         - We recommend using this approach if your DUA or NDA allows for it.  
         - To set this up, use the [request form here](http://csc.cnsi.ucsb.edu/acct). Nathan (Fuzzy) Rogers (Research Computing Administrator, fuz@mrl.ucsb.edu) and Paul Weakliem (CNSI Research Computing Support, weakliem@cnsi.ucsb.edu) are good resources for questions. 
@@ -169,6 +169,6 @@ Geopackage files can be written and read in R, QGIS, and ArcGIS.
 
 Regardless of the data storage option chosen, we recommend several additional best practices:
 
-* High-level metadata for all datasets should be added to the _KRAI_data_directory. See this section in the KRAI SOP for further description of the KRAI data directory. This will help KRAI be internally transparent in how we are using data for different projects, even if the entire group doesn’t have access to the data.  
+* High-level metadata for all datasets should be added to the _<UNK>_data_directory. See this section in the <UNK> SOP for further description of the <UNK> data directory. This will help <UNK> be internally transparent in how we are using data for different projects, even if the entire group doesn’t have access to the data.  
     + For datasets that are confidential, ensure that the “Permissions” column is set to “Secure = confidential data and likely involves a DUA or NDA.”  
 * Researchers should consider anonymizing individual-level data before publicly releasing the data (see [this R package](https://github.com/paulhendricks/anonymizer) as one example for how to do this).

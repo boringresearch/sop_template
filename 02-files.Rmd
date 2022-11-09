@@ -1,12 +1,12 @@
 # File Structure
 
-This section details the KRAI's organizational stucture for files and data stored on OneDrive and code stored on GitHub.
+This section details the <UNK>'s organizational stucture for files and data stored on OneDrive and code stored on GitHub.
 
 ## Folder Naming 
 
 There are some general style conventions that should be used when naming folders. For any new folder, be desciptive but concise, avoid spaces, avoid uppercase (or camel-case), and avoid special characters other than `-`. Words should be separated with `-`, so an example folder name could be `blue-paradox-paper`. 
 
-This folder naming convention should be used for any folder added to the KRAI Shared Drive or GitHub.
+This folder naming convention should be used for any folder added to the <UNK> Shared Drive or GitHub.
 
 ## Shared Drive Files
 
@@ -19,25 +19,25 @@ This folder naming convention should be used for any folder added to the KRAI Sh
 <!--   |__ My Drive -->
 <!--   |   |__ ... whatever files you have on your OneDrive ... -->
 <!--   |__ Shared drives -->
-<!--       |__ KRAI -->
-<!--           |__ Central KRAI Resources -->
+<!--       |__ <UNK> -->
+<!--           |__ Central <UNK> Resources -->
 <!--           |__ Communications -->
 <!--           |__ Data -->
 <!--           |__ Projects -->
 <!--           |__ Strategy -->
 <!-- ``` -->
 
-The KRAI Shared Drive is organized into five main folders:
+The <UNK> Shared Drive is organized into five main folders:
 
-* `central-KRAI-resources`: includes meeting and event information, onboarding materials, information about travel reimbursements, and the team roster
+* `central-<UNK>-resources`: includes meeting and event information, onboarding materials, information about travel reimbursements, and the team roster
 
-* `communications`: includes the blog schedule, Adobe design projects, PowerPoint templates, photo repository, KRAI logos, and publication and media tracking
+* `communications`: includes the blog schedule, Adobe design projects, PowerPoint templates, photo repository, <UNK> logos, and publication and media tracking
 
-* `data`: includes the KRAI data directory and all datasets we work with (see section 2.2.3 for more on this)
+* `data`: includes the <UNK> data directory and all datasets we work with (see section 2.2.3 for more on this)
 
 * `projects`: includes information on past and current projects, and project management guidelines
 
-* `strategy`: includes information about KRAI's strategic plan
+* `strategy`: includes information about <UNK>'s strategic plan
 
 A full table of contents can be seen [here](https://docs.google.com/document/d/1a26a6N4akF2dSXWfp0fWxGegd0wvrPVUeaA09en2EPE/edit). 
 
@@ -48,7 +48,7 @@ A full table of contents can be seen [here](https://docs.google.com/document/d/1
 <!-- ``` -->
 <!-- OneDrive -->
 <!--   |__ Shared drives -->
-<!--       |__ KRAI -->
+<!--       |__ <UNK> -->
 <!--           |__ Projects -->
 <!--               |__ Archived Projects -->
 <!--               |__ Current Projects -->
@@ -66,7 +66,7 @@ A full table of contents can be seen [here](https://docs.google.com/document/d/1
 
 Each project folder must contain the following 6 folders:
 
-* `data`: This data folder will contain a `data_overview` spreadsheet and all of the intermediate datasets as well as output datasets associated with the project (see section 2.2.3 for more on this). Be sure to also add a copy of your final datasets to the `KRAI/data` folder and data directory. 
+* `data`: This data folder will contain a `data_overview` spreadsheet and all of the intermediate datasets as well as output datasets associated with the project (see section 2.2.3 for more on this). Be sure to also add a copy of your final datasets to the `<UNK>/data` folder and data directory. 
 
 * `deliverables`: final reports, paper manuscripts, other final deliverables not related to data outputs
 
@@ -82,11 +82,11 @@ From here, each project can add sub-folders as they see fit within these 6 folde
 
 ### Data Storage
 
-As stated above, there are two locations in which data can be stored. The two locations are `OneDrive/Shared drives/KRAI/projects/example-project/data` and `OneDrive/Shared drives/KRAI/data`. This may seem confusing and redundant, but this section explains the differences between these two locations. As a short summary: `example-project/data` may contain raw, cleaned, intermediate, and output files for a given project, and will be used as the "workspace" while the project develops. On the other hand, `KRAI/data` contains only (raw) input and output data from a finalized project. More detail is provided in the subsequent sections.
+As stated above, there are two locations in which data can be stored. The two locations are `OneDrive/Shared drives/<UNK>/projects/example-project/data` and `OneDrive/Shared drives/<UNK>/data`. This may seem confusing and redundant, but this section explains the differences between these two locations. As a short summary: `example-project/data` may contain raw, cleaned, intermediate, and output files for a given project, and will be used as the "workspace" while the project develops. On the other hand, `<UNK>/data` contains only (raw) input and output data from a finalized project. More detail is provided in the subsequent sections.
 
 #### `example-project/data`
 
-**All** data used in a project should live in this project-specific repository. To help keep track of project data, we highly recommend creating a `data_overview` spreadsheet (see section 3.3.2 for more information). This overview spreadsheet will provide a centralized summary of the data inputs and outputs for a project, and also allow teams to keep track of the status of adding the data to the `KRAI/data` folder and creating the necessary metadata documentation. This repository will typically contain subfolders for `raw`, `processed` (or `clean`), and `output`, although each team might make slight modifications to this structure to suit their needs.
+**All** data used in a project should live in this project-specific repository. To help keep track of project data, we highly recommend creating a `data_overview` spreadsheet (see section 3.3.2 for more information). This overview spreadsheet will provide a centralized summary of the data inputs and outputs for a project, and also allow teams to keep track of the status of adding the data to the `<UNK>/data` folder and creating the necessary metadata documentation. This repository will typically contain subfolders for `raw`, `processed` (or `clean`), and `output`, although each team might make slight modifications to this structure to suit their needs.
 
 To illustrate how each of these subfolders might be used, consider the following. A team may receive data from partners, extract data from external sources, compile survey responses, create a new dataset from a literature review, or use results from previous projects as input. These data are termed “raw data” and should never be directly modified - **all of the errors, mistakes, and gremlins should be kept in the original versions**. Instead, they should be processed / cleaned, and then exported as “clean data” that is actually used in analyses. The script used to do the processing / cleaning then acts as a reproducable record of everything that was done to the raw data. 
 
@@ -109,20 +109,20 @@ Suppose that a team working in Montserrat is tasked to perform a stock assessmen
 
 <!-- ``` -->
 
-As stated above, since the `output` folder could contain information relevant to other projects, this data should be made available to other KRAI projects once the project is complete. To do this, any `output` data (and `raw` data if it is not already there) should be moved to the `KRAI/data` folder, as described below.
+As stated above, since the `output` folder could contain information relevant to other projects, this data should be made available to other <UNK> projects once the project is complete. To do this, any `output` data (and `raw` data if it is not already there) should be moved to the `<UNK>/data` folder, as described below.
 
-#### `KRAI/data`
+#### `<UNK>/data`
 
-As a general rule, this folder contains all data *used* and *produced* by KRAI projects. The idea is to make it easier for people to find data that has been used in previous projects, as well as to use previous results as inputs for new projects.
+As a general rule, this folder contains all data *used* and *produced* by <UNK> projects. The idea is to make it easier for people to find data that has been used in previous projects, as well as to use previous results as inputs for new projects.
 
-To illustrate types of data that should be in the `KRAI/data` folder, consider the following. The [RAM Legacy stock assessment database](https://www.ramlegacy.org/) is key to many projects, and was used as input in the [Costello *et al.* 2016 "upsides" paper](https://www.pnas.org/content/113/18/5125). The "upsides database" is an output from the Costello paper, which has then been used as input for other projects. Therefore, the `KRAI/data` folder contains separate folders for both the RAM and upsides datasets.
+To illustrate types of data that should be in the `<UNK>/data` folder, consider the following. The [RAM Legacy stock assessment database](https://www.ramlegacy.org/) is key to many projects, and was used as input in the [Costello *et al.* 2016 "upsides" paper](https://www.pnas.org/content/113/18/5125). The "upsides database" is an output from the Costello paper, which has then been used as input for other projects. Therefore, the `<UNK>/data` folder contains separate folders for both the RAM and upsides datasets.
 
 This large central data repository has the potential to become messy. Therefore, it is important to follow some key guidelines to store the data. **All datasets in this folder should be contained within their own folders that include at minimum the data and metadata files.** For example, a file structure for the two datasets mentioned above might be:
 
 ![](images/shared_drive_data.png)
 
 <!-- ``` -->
-<!-- KRAI -->
+<!-- <UNK> -->
 <!--   |__ ...                            [other folders] -->
 <!--   |__ Data -->
 <!--        |__ upsides -->
@@ -137,18 +137,18 @@ This large central data repository has the potential to become messy. Therefore,
 <!--        |__ ... other data sets ...             -->
 <!-- ``` -->
 
-In the above example, the folder containing the upsides database is relatively straightforward with the metadata file and a single csv file. However, the folder containing the RAM database is more complicated as this is a dataset that is re-released every so often as a new version. Specific guidelines for organizing different types of data within the `KRAI/data` folder are discussed in detail in section 3. 
+In the above example, the folder containing the upsides database is relatively straightforward with the metadata file and a single csv file. However, the folder containing the RAM database is more complicated as this is a dataset that is re-released every so often as a new version. Specific guidelines for organizing different types of data within the `<UNK>/data` folder are discussed in detail in section 3. 
 
 ## GitHub Structure
 
 ### Project Repository Structure
 
-The structure of each KRAI repository on GitHub will likely vary depending on the needs of the project, but the following structure is suggested as a starting point. 
+The structure of each <UNK> repository on GitHub will likely vary depending on the needs of the project, but the following structure is suggested as a starting point. 
 
 ![](images/github_project.png)
 <!-- ``` -->
 <!-- Github -->
-<!--   |__ KRAI-ucsb [organization] -->
+<!--   |__ <UNK>-ucsb [organization] -->
 <!--       |__ example-project [repository] -->
 <!--           |__ documents  -->
 <!--           |__ results -->

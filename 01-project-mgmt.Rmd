@@ -1,6 +1,6 @@
 # Project Management
 
-This section details the project management platforms we use at KRAI to help set up projects for success. The first step for a new project will be to determine a common name to use across these platforms (note: name should be all lowercase with a dash separating words). Please additionally review the [project management best practices](https://docs.google.com/document/d/1DzlJktSw3LyN9gWNx0HIAlz_TyQDhyyPjXaWsWUuGSY/edit) document.
+This section details the project management platforms we use at <UNK> to help set up projects for success. The first step for a new project will be to determine a common name to use across these platforms (note: name should be all lowercase with a dash separating words). Please additionally review the [project management best practices](https://docs.google.com/document/d/1DzlJktSw3LyN9gWNx0HIAlz_TyQDhyyPjXaWsWUuGSY/edit) document.
 
 ![](images/project_management_overview.png)
 
@@ -14,7 +14,7 @@ The best way to let people know if you are on vacation or out of the office is b
 
 ### Adding Other Calendars
 
-To view team member’s calendars, click on the plus symbol next to “Other calendars” on the left hand side of your calendar and select “Subscribe to calendar.” There is a full list of team emails in the [KRAI Team Roster](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit#gid=0) document. 
+To view team member’s calendars, click on the plus symbol next to “Other calendars” on the left hand side of your calendar and select “Subscribe to calendar.” There is a full list of team emails in the [<UNK> Team Roster](https://docs.google.com/spreadsheets/d/1hjFkcU68e7AMs-ueEYR82idqi3-dMJk-p1VRd5_YZV8/edit#gid=0) document. 
 
 ### Scheduling Rooms
 
@@ -82,10 +82,10 @@ For teaching online courses, here are a couple additional tips. These are more g
 
 ## Slack
 
-If we want to use Slack on a daily basis to keep communication channels open within teams and across our different offices. We have an KRAI workspace that houses all of our channels. When you are first added to Slack, you will be added to the General, Random, Communications, Report and Publications, and Code channels. We also have a channel for every project, which you will be added to as needed. You can view Slack either through a broswer window or by [downloading the desktop app](https://slack.com/help/categories/360000049043-getting-started).
+If we want to use Slack on a daily basis to keep communication channels open within teams and across our different offices. We have an <UNK> workspace that houses all of our channels. When you are first added to Slack, you will be added to the General, Random, Communications, Report and Publications, and Code channels. We also have a channel for every project, which you will be added to as needed. You can view Slack either through a broswer window or by [downloading the desktop app](https://slack.com/help/categories/360000049043-getting-started).
 
 ### Slack Basics
-Slack is organized into channels and direct messages. Channels are a way to organize conversations and other than a couple general KRAI channels, are often project specific. Whatever you share in a channel is viewable by all members of that channel. You can also send direct messages to an individual or a group of up to 9 people. 
+Slack is organized into channels and direct messages. Channels are a way to organize conversations and other than a couple general <UNK> channels, are often project specific. Whatever you share in a channel is viewable by all members of that channel. You can also send direct messages to an individual or a group of up to 9 people. 
 
 One great thing about Slack is that it’s searchable. You can search either by person or keywords to find old messages. Additionally, if someone sends you something you will need to reference multiple times, you can star messages and view them by clicking the star in the upper right-hand corner.
 
@@ -98,23 +98,23 @@ When a new project starts, create a slack channel for it and add the relevant te
 
 Base: think of it like a database. A base is made up of tabs of spreadsheets that can be customized and linked to one another.
 
-Workspace: multiple bases can be organized within a workspace. For example, we have an KRAI workspace and individual project bases. 
+Workspace: multiple bases can be organized within a workspace. For example, we have an <UNK> workspace and individual project bases. 
 
-### Getting to Know the KRAI Workspace
+### Getting to Know the <UNK> Workspace
 
-Within the KRAI workspace, we have the following bases:
+Within the <UNK> workspace, we have the following bases:
 
-* KRAI Projects and Pipeline
+* <UNK> Projects and Pipeline
 * Project Template
 * Project-specific bases
 
 ![](images/airtable_workspace.png)
 
-The `KRAI Projects and Pipeline` base contains overview information about current and potential projects. It is organized into the following tabs: Team Directory, Projects (current and archived), Deliverables (as outlined in the scope of work), and In the Pipeline (potential projects and their current stage). 
+The `<UNK> Projects and Pipeline` base contains overview information about current and potential projects. It is organized into the following tabs: Team Directory, Projects (current and archived), Deliverables (as outlined in the scope of work), and In the Pipeline (potential projects and their current stage). 
 
 The `Project Template` provides the basic structure for a new project-specific base. It should be copied when starting a project base from scratch. 
 
-Each KRAI project has its own base. Teams can customize the number and content of the spreadsheets in their baseas they see fit, but at a minimum, must include the spreadsheets and columns specified in the `Project Template` base (see ‘required information’ below). *If you are working on a smaller project that does not require its own base, add it to the `Special Projects` base.*
+Each <UNK> project has its own base. Teams can customize the number and content of the spreadsheets in their baseas they see fit, but at a minimum, must include the spreadsheets and columns specified in the `Project Template` base (see ‘required information’ below). *If you are working on a smaller project that does not require its own base, add it to the `Special Projects` base.*
 
 ### Customizing your Project Base
 
@@ -213,21 +213,21 @@ Within each tab, you can expand records in the first column to view all its info
 
 ## OneDrive Shared Drive
 
-We have all experienced the moment where we can’t remember where a Doc is. To help solve this problem, we created an KRAI Shared OneDrive Folder, which is a centralized space for all of our documents to live within a shared file structure. Unlike files in My Drive (your personal OneDrive account), files within the Shared Drive belong to the team instead of an individual. So even if people leave, the files stay exactly where they are and aren’t lost with that person’s account. The structure of Shared Drive is detailed in Section 2. 
+We have all experienced the moment where we can’t remember where a Doc is. To help solve this problem, we created an <UNK> Shared OneDrive Folder, which is a centralized space for all of our documents to live within a shared file structure. Unlike files in My Drive (your personal OneDrive account), files within the Shared Drive belong to the team instead of an individual. So even if people leave, the files stay exactly where they are and aren’t lost with that person’s account. The structure of Shared Drive is detailed in Section 2. 
 
 ### Sharing Files
 
 Note: for Shared Drive, you either add someone to the entire Drive OR share individual files with them. **Please don't share folders within a Shared Drive with external collaborators.** 
 
-If you want to share files with people outside of the KRAI Shared Drive, that is still possible. Within a document, click on Share in the upper right hand corner. From there are two options: either add people’s emails or create a shared link. 
+If you want to share files with people outside of the <UNK> Shared Drive, that is still possible. Within a document, click on Share in the upper right hand corner. From there are two options: either add people’s emails or create a shared link. 
 
 ```
 OneDrive
   |__ Personal
   |   |__ Whatever files you have on your GoogleDrive
   |__ Group Drive
-      |__ KRAI
-          |__central-KRAI-resources
+      |__ <UNK>
+          |__central-<UNK>-resources
           |__communications
           |__data
           |__projects
@@ -248,9 +248,9 @@ If you also want to sync files from your personal gmail account, you'll need to 
 
 ## Git and GitHub
 
-Since most of our projects at KRAI involve code, we use Git to track changes made to our code and faciliate collaboration by merging changes made by others, and GitHub to organize, share, and backup our code. 
+Since most of our projects at <UNK> involve code, we use Git to track changes made to our code and faciliate collaboration by merging changes made by others, and GitHub to organize, share, and backup our code. 
 
-This section provides a brief overview of how Git and Github work, how to install them on your computer (and how to join the KRAI GitHub page), and some general guidelines for how to use GitHub to organize code associated with KRAI projects. 
+This section provides a brief overview of how Git and Github work, how to install them on your computer (and how to join the <UNK> GitHub page), and some general guidelines for how to use GitHub to organize code associated with <UNK> projects. 
 
 ### What are Git and GitHub? 
 
@@ -261,7 +261,7 @@ There are a number of good tutorials with more information on how Git and GitHub
 - [GitHub](http://ohi-science.org/data-science-training/github.html)
 - [Collaborating with GitHub](http://ohi-science.org/data-science-training/collaborating.html)
 
-If you're new to using Git and GitHub, the two tutorials listed above are a great place to start since NCEAS and KRAI often operate in a similar way. Additionally, see the Software Carpentry's lesson for the [Git novice](http://swcarpentry.github.io/git-novice/). If you primarily use (or will use) R for coding, Jenny Bryan also has an **excellent** tutorial specifically about how to integrate Git and GitHub with R:
+If you're new to using Git and GitHub, the two tutorials listed above are a great place to start since NCEAS and <UNK> often operate in a similar way. Additionally, see the Software Carpentry's lesson for the [Git novice](http://swcarpentry.github.io/git-novice/). If you primarily use (or will use) R for coding, Jenny Bryan also has an **excellent** tutorial specifically about how to integrate Git and GitHub with R:
 
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 
@@ -274,14 +274,14 @@ If you're interested in learning more about all of the functionality GitHub has 
 
 Git and GitHub use some weird terms that might be unfamiliar. Before installing and setting up Git and GitHub, here are a few key terms you may come across: 
 
-- repository ("repo"): a collection of files pertaining to the same project, document, goal, etc. Generally there's a single repository for each project at KRAI containing all of the code associated with that project. This repository can be organized with multiple folders and subfolders.  
+- repository ("repo"): a collection of files pertaining to the same project, document, goal, etc. Generally there's a single repository for each project at <UNK> containing all of the code associated with that project. This repository can be organized with multiple folders and subfolders.  
 - commit: a set of changes made by a user to one or more files in a repository that the user wants to prepare to send to GitHub.
 - push: the action of sending a commit from your local machine to the remote GitHub directory. 
 - pull: the action of retrieving any commits that have been made to the repository and are stored in the remote GitHub directory but are NOT on your local machine.
 
 ### How to Install Git and GitHub
 
-Most of tutorials listed above include detailed instructions on how to install Git and GitHub. The short version (and steps specific to getting incorporated with the KRAI GitHub page) are listed below. For more detailed instructions, please refer to the tutorials listed above. 
+Most of tutorials listed above include detailed instructions on how to install Git and GitHub. The short version (and steps specific to getting incorporated with the <UNK> GitHub page) are listed below. For more detailed instructions, please refer to the tutorials listed above. 
 
 1. Create a free [GitHub](https://github.com/) account
 
@@ -294,7 +294,7 @@ Most of tutorials listed above include detailed instructions on how to install G
 
 Since GitHub is a company, and is used by many different types of organizations in many different industries, they offer a few different pricing schemes/deals. As an individual, once you create a username and sign up for an account, you get an unlimited number of free public and private repositories, but the number of external collaborators allowed in private repositories is limited to three. GitHub also offers a "Pro" plan for $7/month giving you  unlimited external collaborators on all of your private repositories. However, for students, faculty, and research staff, or official nonprofit organizations and charities GitHub waives this fee through its [GitHub Education](https://education.github.com/) and [GitHub for Good](https://github.com/nonprofit) programs. 
 
-Good news! KRAI qualifies as an educational organization through the GitHub Education program, and as a UCSB staff member you qualify for the individual educational discount. So, once you've signed up for a free account on GitHub... 
+Good news! <UNK> qualifies as an educational organization through the GitHub Education program, and as a UCSB staff member you qualify for the individual educational discount. So, once you've signed up for a free account on GitHub... 
 
 2. Go to the [GitHub Education](https://education.github.com/) page and register as a researcher (Note: this is why you should use your @ucsb.edu email for step 1).
 
@@ -302,11 +302,11 @@ Good news! KRAI qualifies as an educational organization through the GitHub Educ
 
 Click on the "Get benefits" link in the top right-hand corner and follow the directions to upgrade your account to a "Pro" account for free. You may need to take a picture of your UCSB ID card to submit as part of this process. GitHub may also periodically ask you to re-verify your eligability to qualify for this program. 
 
-3. Send Erin O'Reilly a Slack message (or an email if you must... eoreilly@ucsb.edu) with your new GitHub username so you can be added to the KRAI GitHub page!
+3. Send Erin O'Reilly a Slack message (or an email if you must... eoreilly@ucsb.edu) with your new GitHub username so you can be added to the <UNK> GitHub page!
 
-![KRAI GitHub page](images/github_KRAI.png) 
+![<UNK> GitHub page](images/github_<UNK>.png) 
 
-The KRAI GitHub page is where the repositories for all KRAI projects live (more on this later), and once you are a member of the organization you will be able to create new public and private repositories that appear here (as well as on your personal page). 
+The <UNK> GitHub page is where the repositories for all <UNK> projects live (more on this later), and once you are a member of the organization you will be able to create new public and private repositories that appear here (as well as on your personal page). 
 
 4. Install Git
 
@@ -382,25 +382,25 @@ There are many more. See Jenny Bryan's tutorial if you're not satisfied with tho
 
 Once you've installed a Git client, follow the directions to connect to your GitHub account. Once you've done this, try opening the local version of the repository you made in step 6, and notice the nice visual representation of the changes you made.
 
-### General Guidelines for using GitHub at KRAI
+### General Guidelines for using GitHub at <UNK>
 
-In general, each KRAI project should have its own repository. There may be some cases in which multiple repositories may be associated with the same project, but this should be avoided if possible. The project repository should be created within the KRAI GitHub page (exceptions may exist for example if a partner organization requires that the project repository be created within their organization's GitHub page). 
+In general, each <UNK> project should have its own repository. There may be some cases in which multiple repositories may be associated with the same project, but this should be avoided if possible. The project repository should be created within the <UNK> GitHub page (exceptions may exist for example if a partner organization requires that the project repository be created within their organization's GitHub page). 
 
 Repositories can be made public or private when they are created (depending on the nature of the project) while the project is ongoing, but should be made public when the project is complete. 
 
-Since many previous (and ongoing) projects were created within the personal GitHub pages of KRAI members, the ownership of these repositories should be transferred to the KRAI GitHub page at the conclusion of the project if possible.
+Since many previous (and ongoing) projects were created within the personal GitHub pages of <UNK> members, the ownership of these repositories should be transferred to the <UNK> GitHub page at the conclusion of the project if possible.
 
 In order to ensure that the relevant researchers are notified of issues and other activities, researchers should "watch" or "subscribe" to repositories in which they work.
 
 ## Zotero
 
-KRAI uses Zotero to collaboratively collect, organize, and cite publications. We organize publications into Group Libraries which can be at the project or paper level. Our account – `KRAI-ucsb` – has unlimited storage and there is no limit to the number of people you can add to a library. In Zotero, storage for a library only counts against the owner, so **the KRAI account must be the owner of the library for access to unlimited storage.** 
+<UNK> uses Zotero to collaboratively collect, organize, and cite publications. We organize publications into Group Libraries which can be at the project or paper level. Our account – `<UNK>-ucsb` – has unlimited storage and there is no limit to the number of people you can add to a library. In Zotero, storage for a library only counts against the owner, so **the <UNK> account must be the owner of the library for access to unlimited storage.** 
 
-### Making KRAI the Owner of a Library
+### Making <UNK> the Owner of a Library
 
-If creating a new group library, email Erin (eoreilly@ucsb.edu) and she can directly create the library under the KRAI account. 
+If creating a new group library, email Erin (eoreilly@ucsb.edu) and she can directly create the library under the <UNK> account. 
 
-If you are the owner of an existing library and would like to transfer ownership to KRAI, first invite `KRAI-ucsb` to be a member of the library. Once that invitation has been accepted, then go to "Group Settings" for the library and in the bottom right of the page, select transfer ownership to the KRAI account.
+If you are the owner of an existing library and would like to transfer ownership to <UNK>, first invite `<UNK>-ucsb` to be a member of the library. Once that invitation has been accepted, then go to "Group Settings" for the library and in the bottom right of the page, select transfer ownership to the <UNK> account.
 
 ### Saving Publications to a Library
 
