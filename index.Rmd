@@ -1,10 +1,10 @@
 ---
-title: "Gaelic Algorithmic Research Group (Quick Setup)"
-author: "Gaelic Algorithmic Research Group"
+title: "<UNK LAB>'s New Starter"
+author: "<UNK>"
 date: "`r Sys.Date()`"
-description: "A Quick Setup Document for Gaelic Algorithmic Research Group projects"
-url: "https://Gaelic-Algorithmic-Research-Group.github.io/Quick-Setup/"
-github-repo: "Gaelic-Algorithmic-Research-Group/Quick-Setup"
+description: "<UNK>"
+url: "<UNK>"
+github-repo: "<UNK>"
 site: bookdown::bookdown_site
 documentclass: book
 favicon: "favicon.png"
