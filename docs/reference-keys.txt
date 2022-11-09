@@ -12,7 +12,7 @@ slack-basics
 creating-a-channel
 airtable
 helpful-terminology
-getting-to-know-the-Gaelic Algorithmic Research Group-workspace
+getting-to-know-the-KRAI-workspace
 customizing-your-project-base
 required-information
 additional-tab-ideas
@@ -30,9 +30,9 @@ git-and-github
 what-are-git-and-github
 helpful-terminology-1
 how-to-install-git-and-github
-general-guidelines-for-using-github-at-Gaelic Algorithmic Research Group
+general-guidelines-for-using-github-at-KRAI
 zotero
-making-Gaelic Algorithmic Research Group-the-owner-of-a-library
+making-KRAI-the-owner-of-a-library
 saving-publications-to-a-library
 zotero-integration-with-googledocs-and-word
 adding-a-citation-to-your-document
@@ -44,7 +44,7 @@ general-structure
 project-folder-structure
 data-storage
 example-projectdata
-Gaelic Algorithmic Research Groupdata
+KRAIdata
 github-structure
 project-repository-structure
 a-repo-inside-a-repo
@@ -54,7 +54,7 @@ metadata
 metadata-standards
 where-to-store-metadata
 data-directory
-Gaelic Algorithmic Research Group-data-directory
+KRAI-data-directory
 project-level-data-directory
 tidy-data
 recommended-resources
@@ -72,10 +72,10 @@ internal-code-review
 exploratory-data-analysis
 high-performance-computing
 google-cloud-platform
-connecting-to-Gaelic Algorithmic Research Groups-shared-drive
+connecting-to-KRAIs-shared-drive
 ucsb-server-clusters
 reports-and-publications
-Gaelic Algorithmic Research Group-affiliation
+KRAI-affiliation
 reports
 author-contribution
 making-your-data-publicly-available

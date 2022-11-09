@@ -36,7 +36,7 @@ Template setup projects:
     - Google Cloud Platform
     - UCSB Server Clusters
 6. Reports and Publications
-    - Gaelic Algorithmic Research Group Affiliation
+    - KRAI Affiliation
     - Reports
     - Author Contribution
     - Making Your Data Publicly Available

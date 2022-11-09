@@ -1,6 +1,6 @@
 # Code
 
-All data processing and analysis should be performed with code (i.e., avoid spreadsheets), and all code should be packaged in scripts that are version controlled and follow a style guide. Using code and scripts allows for better organization, documentation, and reproducibility of analysis workflows. **All Gaelic Algorithmic Research Group code should be stored in the Gaelic Algorithmic Research Group GitHub account.**
+All data processing and analysis should be performed with code (i.e., avoid spreadsheets), and all code should be packaged in scripts that are version controlled and follow a style guide. Using code and scripts allows for better organization, documentation, and reproducibility of analysis workflows. **All KRAI code should be stored in the KRAI GitHub account.**
 
 **Recommended readings:**
 
@@ -59,9 +59,9 @@ team_path <- ifelse(Sys.info()["sysname"]=="Windows","G:/","/Volumes/GoogleDrive
 project_name <- "my-project"
 
 # This will automatically determine if the project exists in the "current-projects" or "archived-projects" Shared Drive folder, and set the appropriate data path accordingly.
-data_path <- ifelse(dir.exists(paste0(team_path,"Shared drives/Gaelic Algorithmic Research Group/projects/current-projects/",project_name)),
-                       paste0(team_path,"Shared drives/Gaelic Algorithmic Research Group/projects/current-projects/",project_name,"/data/"),
-                       (paste0(team_path,"Shared drives/Gaelic Algorithmic Research Group/projects/archived-projects/",project_name,"/data/")))
+data_path <- ifelse(dir.exists(paste0(team_path,"Shared drives/KRAI/projects/current-projects/",project_name)),
+                       paste0(team_path,"Shared drives/KRAI/projects/current-projects/",project_name,"/data/"),
+                       (paste0(team_path,"Shared drives/KRAI/projects/archived-projects/",project_name,"/data/")))
 
 
 # Import data -----------------------------------------------------------------
@@ -89,7 +89,7 @@ More advanced workflows for using Git and GitHub, such as using pull requests or
 
 ## Style Guide  
 
-At Gaelic Algorithmic Research Group, we recommend using a consistent code style for each of the different programming languages we use. Recommended coding styles for a particular language are collated in what is known as a "style guide". Style guides typically include standardized ways of naming script files, defining functions and variables, commenting code, etc. While Gaelic Algorithmic Research Group does not mandate the use of style guides, having a consistent code style allows all Gaelic Algorithmic Research Group staff to easily understand each other's code, collaborate on projects, and jump in on new projects. We consider this an important aspect of collaboration, reproducibility, and transparency.  
+At KRAI, we recommend using a consistent code style for each of the different programming languages we use. Recommended coding styles for a particular language are collated in what is known as a "style guide". Style guides typically include standardized ways of naming script files, defining functions and variables, commenting code, etc. While KRAI does not mandate the use of style guides, having a consistent code style allows all KRAI staff to easily understand each other's code, collaborate on projects, and jump in on new projects. We consider this an important aspect of collaboration, reproducibility, and transparency.  
 
 Rather than re-invent the wheel, we leverage existing code style guidelines for each of the languages we use. Below is a summary of the code style guidelines we recommend for various languages:  
 
@@ -171,7 +171,7 @@ The original coder and reviewing coder should coordinate on the best method for 
 
 ## Exploratory Data Analysis    
 
-Much of the work Gaelic Algorithmic Research Group does is Exploratory Data Analysis (EDA), especially during the beginning stages of a project when we are familiarizing ourselves we new datasets and rapidly prototyping data wrangling and modeling approaches. The following quote from [Hadley Wickham's R for Data Science](https://r4ds.had.co.nz/exploratory-data-analysis.html) describes EDA as:
+Much of the work KRAI does is Exploratory Data Analysis (EDA), especially during the beginning stages of a project when we are familiarizing ourselves we new datasets and rapidly prototyping data wrangling and modeling approaches. The following quote from [Hadley Wickham's R for Data Science](https://r4ds.had.co.nz/exploratory-data-analysis.html) describes EDA as:
 
 > EDA is an iterative cycle. You: 1) Generate questions about your data; 2) Search for answers by visualising, transforming, and modelling your data; 3 Use what you learn to refine your questions and/or generate new questions.
 
